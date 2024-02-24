@@ -1,0 +1,18 @@
+.Searched{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.searchedcard{
+    margin: 10px;
+    text-align: center;
+}
+.lon{
+    color: black;
+    text-decoration: none;
+}
+.searchedcard > .lon> img{
+    border-radius: 20px;
+}

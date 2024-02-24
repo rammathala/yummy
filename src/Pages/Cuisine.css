@@ -1,0 +1,13 @@
+.Cuisinelog{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+grid-gap: 1rem;
+place-items: center;
+width: 90vw;
+}
+.cusiall{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    margin-top: 50px;
+}

@@ -1,0 +1,12 @@
+.Footer{
+    height: 10vh;
+    background-color:#FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 20px;
+    padding: 10px;
+}
+.logo1{
+    font-size: 35px !important;
+}

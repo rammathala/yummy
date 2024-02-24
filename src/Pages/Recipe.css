@@ -1,0 +1,71 @@
+.recipebod{
+    display: grid;
+    place-items: center;
+}
+.Recipe{
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    background-color:white;
+    width: 78vw;
+    height: 80vh;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.recipeca{
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.recipeca >p{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+}
+.recipeca >img{
+    width:450px;
+    height:auto;
+    border-radius: 20px;
+}
+.buttonsinfo{
+   flex: 0.7;
+   height: 100%;
+   flex-direction: column;
+   display: flex;
+   padding-top: 10px;
+   padding: 0 20px;
+   margin: 40px 40px;
+}
+.buttoninfo{
+    display: flex;
+    align-items: center;
+}
+.buttong:hover{
+    cursor: pointer;
+}
+ .buttong{
+    margin:0 20px;
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    border: 3px solid black;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+.activeg{
+    color: white;
+    background-color: rgb(40, 39, 39);
+}
+.ingrdet{
+    text-align: justify;
+}
